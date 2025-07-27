@@ -46,6 +46,16 @@ Common Issues:
 - Headless browser automation
 - Robust error handling
 
+## 💡 Why I Build This
+
+Amazon’s search results are heavily dynamic, making them a good case study for learning:  
+- **Technical Challenge**: Extracting data from a site that actively blocks scrapers.  
+- **My Approach**: Used Selenium with headless browsing and staggered requests to reduce detection risk.  
+
+**Outcome**: A working scraper that logs errors and preserves data structure.  
+
+*Note: This is a demo project—scraping at scale may violate Amazon’s ToS.*  
+
 ## License
 
 MIT © 2025 river18922518
