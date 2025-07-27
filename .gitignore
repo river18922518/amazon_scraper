@@ -208,14 +208,12 @@ __marimo__/
 
 # ----- Custom Rules for Amazon Scraper -----
 # Scraper outputs
-*.html
-*.json
+amazon_*.html
+amazon_*.json
+amazon_*.csv
+amazon_scraper_output/
 
 # Selenium/WebDriver files
 chromedriver*
 geckodriver*
 *.log
-
-# Project-specific files
-amazon_products_*.html
-scraper_logs/
