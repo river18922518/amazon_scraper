@@ -205,3 +205,17 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# ----- Custom Rules for Amazon Scraper -----
+# Scraper outputs
+*.html
+*.json
+
+# Selenium/WebDriver files
+chromedriver*
+geckodriver*
+*.log
+
+# Project-specific files
+amazon_products_*.html
+scraper_logs/
