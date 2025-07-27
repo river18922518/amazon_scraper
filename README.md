@@ -17,6 +17,10 @@ This is an **educational project** demonstrating web scraping techniques.
 - 📝 Detailed logging with timestamps
 - 🔄 Smart retry mechanism for reliability
 
+## Requirements
+- Python 3.8+
+- Chrome (for Selenium)
+
 ## Quick Start
 
 1. Install dependencies:  
