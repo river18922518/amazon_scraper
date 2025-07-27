@@ -28,8 +28,15 @@ This is an **educational project** demonstrating web scraping techniques.
    pip install -r requirements.txt
    ```
 
-2. Download ChromeDriver:
-    https://googlechromelabs.github.io/chrome-for-testing
+2. ChromeDriver Setup  
+   1. Download the correct version for your Chrome browser from [here](https://chromedriver.chromium.org/downloads).  
+   2. Either:  
+      - Place `chromedriver` in your project folder, **or**  
+      - Add it to your system `PATH`.  
+   3. Verify compatibility:  
+      ```bash
+      chromedriver --version
+      ```
 
 3. Run the scraper:
     please refer to the usage guide at the bottom of the "amazon_scraper.py".
