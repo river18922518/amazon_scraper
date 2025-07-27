@@ -2,6 +2,11 @@
 
 A robust Python scraper that extracts product listings from Amazon search results across multiple pages.
 
+## ⚠️ Disclaimer  
+This is an **educational project** demonstrating web scraping techniques.  
+- **Do not use** to scrape Amazon at scale.  
+- **Respect** [Amazon’s robots.txt](https://www.amazon.com/robots.txt) and [Terms of Service](https://www.amazon.com/gp/help/customer/display.html?nodeId=508088)
+
 ## Features
 
 - 🔍 Custom product searches
@@ -33,10 +38,6 @@ Log       Text   amazon_scraper_20250728_0145.log
 
 Common Issues:
     ChromeDriver version mismatch - ensure it matches your Chrome version
-
-## Disclaimer
-
-This script is for educational purposes only. Please respect Amazon's Terms of Service and robots.txt. Use responsibly with reasonable request rates.
 
 ## License
 
