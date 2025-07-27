@@ -9,13 +9,35 @@ This is an **educational project** demonstrating web scraping techniques.
 
 ## Features
 
-- 🔍 Custom product searches
-- 📑 Multi-page scraping (with "all pages" option)
-- 🖥️ Headless browser mode (default) or visible mode
-- ⏱️ Automatic pagination handling
-- 📁 HTML output with preserved product structure
-- 📝 Detailed logging with timestamps
-- 🔄 Smart retry mechanism for reliability
+### Core Functionality
+- 🔍 **Custom Search** - Search for any product category with adjustable parameters
+- 📑 **Multi-Page Scraping** - Scrape specified number of pages or all available pages
+- 🖥️ **Headless Mode** - Runs browser invisibly by default (configurable)
+- ⏱️ **Smart Pagination** - Automatic handling of next-page navigation with fail-safes
+
+### Data Extraction
+- 📊 **Comprehensive Product Data** - Captures:
+  - Product names (with fallback parsing)
+  - Current & original prices
+  - Star ratings and review counts
+  - Sponsored/Organic identification
+  - Product URLs and ASINs
+- 🛡️ **Robust Parsing** - Multiple fallback methods for each data point
+
+### Output Options
+- 📁 **HTML Preservation** - Saves raw product HTML for later analysis
+- 📝 **Structured CSV** - Clean tabular output with automatic conversion
+- 📜 **Detailed Logging** - Timestamped operation log with error tracking
+
+### Reliability Features
+- 🔄 **Smart Retry System** - Automatic retries for failed operations
+- ⚡ **Performance Optimized** - Balanced delays to prevent detection
+- 🧩 **Modular Design** - Separate scraping and conversion functions
+
+### User Experience
+- 🎛️ **Configurable** - Toggle CSV conversion, headless mode, etc.
+- 📂 **Auto-Organization** - Creates dedicated output directory
+- 🔄 **Resumable** - Can process existing HTML files without re-scraping
 
 ## Requirements
 - Python 3.8+
