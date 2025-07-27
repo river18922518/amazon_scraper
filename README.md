@@ -31,9 +31,11 @@ This is an **educational project** demonstrating web scraping techniques.
 
 ## Output Files
 
-File_Type Format Example_Name
-Products  HTML   amazon_wireless_earbuds_products.html
-Log       Text   amazon_scraper_20250728_0145.log
+```markdown
+| File_Type | Format | Example_Name |
+|-|-|-|
+| Products | HTML | amazon_wireless_earbuds_products.html |
+| Log | Text | amazon_scraper_20250728_0145.log |
 
 ## Troubleshooting
 
