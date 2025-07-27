@@ -39,7 +39,11 @@ This is an **educational project** demonstrating web scraping techniques.
       ```
 
 3. Run the scraper:
-    please refer to the usage guide at the bottom of the "amazon_scraper.py".
+    ```python
+   from amazon_scraper import scrape_amazon_multipage
+   # Scrape 3 pages of wireless earbuds (headless mode + auto CSV)
+   scrape_amazon_multipage("wireless earbuds", pages_to_scrape=3)
+    ```
 
 ## Output Files
 
