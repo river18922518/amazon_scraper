@@ -19,8 +19,9 @@ This is an **educational project** demonstrating web scraping techniques.
 
 ## Quick Start
 
-1. Install requirements:
-    pip install selenium
+1. Install dependencies:  
+   ```bash
+   pip install -r requirements.txt
 
 2. Download ChromeDriver:
     https://googlechromelabs.github.io/chrome-for-testing
