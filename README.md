@@ -36,6 +36,7 @@ This is an **educational project** demonstrating web scraping techniques.
 |-|-|-|
 | Products | HTML | amazon_wireless_earbuds_products.html |
 | Log | Text | amazon_scraper_20250728_0145.log |
+```
 
 ## Troubleshooting
 
