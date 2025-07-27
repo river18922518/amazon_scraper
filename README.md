@@ -40,6 +40,12 @@ Log       Text   amazon_scraper_20250728_0145.log
 Common Issues:
     ChromeDriver version mismatch - ensure it matches your Chrome version
 
+## 🎯 What This Project Demonstrates
+
+- Web scraping with Selenium
+- Headless browser automation
+- Robust error handling
+
 ## License
 
 MIT © 2025 river18922518
