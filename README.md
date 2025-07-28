@@ -69,13 +69,11 @@ This is an **educational project** demonstrating web scraping techniques.
 
 ## Usages
 
-```markdown
 | Variable        | Type | Description                                                                     |
-|:----------------|:-----|:--------------------------------------------------------------------------------|
+| :-------------- |:-----|:--------------------------------------------------------------------------------|
 | pages_to_scrape | int  | The number of pages to scrape. Set to "all" for no limit.                       |
 | background      | bool | If True, runs the browser in headless (background) mode. Default: True.         |
 | convert_to_csv  | bool | If True, automatically converts scraped HTML data to a CSV file. Default: True. |
-```
 
 ## Output Files
 
